@@ -1,0 +1,21 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/div.v" type="file.verilog" enable="1"/>
+        <File path="src/framebuffer.v" type="file.verilog" enable="1"/>
+        <File path="src/gol.v" type="file.verilog" enable="1"/>
+        <File path="src/gol_tb.v" type="file.verilog" enable="0"/>
+        <File path="src/gowin_dpb/gowin_dpb.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd.v" type="file.verilog" enable="1"/>
+        <File path="src/lfsr.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/pinout.cst" type="file.cst" enable="1"/>
+        <File path="src/trace.rao" type="file.gao" enable="0"/>
+        <File path="src/file_monitor.py" type="file.other" enable="1"/>
+    </FileList>
+</Project>

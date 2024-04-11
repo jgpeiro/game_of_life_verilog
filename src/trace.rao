@@ -1,0 +1,95 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="CLK_IN" trig_type="0" capture_amount="4096" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="TOP">
+        <SignalList>
+            <Bus capture_enable="true" name="gol0/addr[16:0]">
+                <Signal>gol0/addr[16]</Signal>
+                <Signal>gol0/addr[15]</Signal>
+                <Signal>gol0/addr[14]</Signal>
+                <Signal>gol0/addr[13]</Signal>
+                <Signal>gol0/addr[12]</Signal>
+                <Signal>gol0/addr[11]</Signal>
+                <Signal>gol0/addr[10]</Signal>
+                <Signal>gol0/addr[9]</Signal>
+                <Signal>gol0/addr[8]</Signal>
+                <Signal>gol0/addr[7]</Signal>
+                <Signal>gol0/addr[6]</Signal>
+                <Signal>gol0/addr[5]</Signal>
+                <Signal>gol0/addr[4]</Signal>
+                <Signal>gol0/addr[3]</Signal>
+                <Signal>gol0/addr[2]</Signal>
+                <Signal>gol0/addr[1]</Signal>
+                <Signal>gol0/addr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/value[15:0]">
+                <Signal>gol0/value[15]</Signal>
+                <Signal>gol0/value[14]</Signal>
+                <Signal>gol0/value[13]</Signal>
+                <Signal>gol0/value[12]</Signal>
+                <Signal>gol0/value[11]</Signal>
+                <Signal>gol0/value[10]</Signal>
+                <Signal>gol0/value[9]</Signal>
+                <Signal>gol0/value[8]</Signal>
+                <Signal>gol0/value[7]</Signal>
+                <Signal>gol0/value[6]</Signal>
+                <Signal>gol0/value[5]</Signal>
+                <Signal>gol0/value[4]</Signal>
+                <Signal>gol0/value[3]</Signal>
+                <Signal>gol0/value[2]</Signal>
+                <Signal>gol0/value[1]</Signal>
+                <Signal>gol0/value[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/x[8:0]">
+                <Signal>gol0/x[8]</Signal>
+                <Signal>gol0/x[7]</Signal>
+                <Signal>gol0/x[6]</Signal>
+                <Signal>gol0/x[5]</Signal>
+                <Signal>gol0/x[4]</Signal>
+                <Signal>gol0/x[3]</Signal>
+                <Signal>gol0/x[2]</Signal>
+                <Signal>gol0/x[1]</Signal>
+                <Signal>gol0/x[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/y[8:0]">
+                <Signal>gol0/y[8]</Signal>
+                <Signal>gol0/y[7]</Signal>
+                <Signal>gol0/y[6]</Signal>
+                <Signal>gol0/y[5]</Signal>
+                <Signal>gol0/y[4]</Signal>
+                <Signal>gol0/y[3]</Signal>
+                <Signal>gol0/y[2]</Signal>
+                <Signal>gol0/y[1]</Signal>
+                <Signal>gol0/y[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/i[1:0]">
+                <Signal>gol0/i[1]</Signal>
+                <Signal>gol0/i[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/j[1:0]">
+                <Signal>gol0/j[1]</Signal>
+                <Signal>gol0/j[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/neigbours[2:0]">
+                <Signal>gol0/neigbours[2]</Signal>
+                <Signal>gol0/neigbours[1]</Signal>
+                <Signal>gol0/neigbours[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="gol0/state[3:0]">
+                <Signal>gol0/state[3]</Signal>
+                <Signal>gol0/state[2]</Signal>
+                <Signal>gol0/state[1]</Signal>
+                <Signal>gol0/state[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">gol0/rst</Signal>
+            <Signal capture_enable="true">gol0/clk</Signal>
+            <Signal capture_enable="true">gol0/din</Signal>
+            <Signal capture_enable="true">gol0/dout</Signal>
+            <Signal capture_enable="true">gol0/write</Signal>
+            <Signal capture_enable="true">gol0/done</Signal>
+            <Signal capture_enable="true">gol0/center</Signal>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>1100001001000011</GAO_ID>
+</GAO_CONFIG>
